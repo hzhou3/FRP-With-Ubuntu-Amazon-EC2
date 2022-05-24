@@ -18,7 +18,7 @@ Note: Ubuntu OpenSSH-Server install and Setup Skipped.
 Note: need to open this port on AWS console under `Security Groups` tap. 
 
   ##### &emsp;&emsp;c. run following within the frps folder
-        sudo mv frps /usr/bin/.  # frps here is an excutable in linux.
+        sudo mv frps /usr/bin/  # frps here is an excutable in linux.
         sudo mkdir /etc/frp
         sudo mv frps.ini /etc/frp/
         sudo mv frps.service /etc/systemd/system/
@@ -46,7 +46,7 @@ If everything is done correctly, you will see the prompt saying the server is ru
 
   ##### &emsp;&emsp;c. run following within the frpc folder
 
-        sudo mv frpc /usr/bin/.  # frpc here is an excutable in linux.
+        sudo mv frpc /usr/bin/  # frpc here is an excutable in linux.
         sudo mkdir /etc/frp
         sudo mv frpc.ini /etc/frp/
         sudo mv frpc.service /etc/systemd/system/
